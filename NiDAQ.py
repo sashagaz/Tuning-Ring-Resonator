@@ -7,7 +7,7 @@ print list_instruments()
 import sys, select, os
 import time
 
-daq = NIDAQ('Dev2')
+daq = NIDAQ('Dev1')
 
 ## Evaluate the time to execute the code
 start_time = time.time()
